@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .App {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .centerAlign {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .subHeadingLogin h3 {
+    font-size: 24px;
+    font-weight: 400;
+  }
+  
+  .subHeadingLogin p {
+    margin-top: 20px;
+    font-size: 16px;
+    line-height: 19px;
+  }
+  
+  .centerAlignText {
+    text-align: center;
+  }
+  
+  .loginPage {
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+  
+  .otpPage {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100%;
+  }
+  
+  .successPage {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100vh;
+    max-width: 330px;
+  }
+  
+  .admitKardLogo {
+    height: 50px;
+    width: 264px;
+  }
+  
+  .undrawImage {
+    height: 120px;
+    width: 120px;
+  }
